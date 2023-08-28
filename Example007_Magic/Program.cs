@@ -1,4 +1,4 @@
-﻿Console.Clear();
+﻿/*Console.Clear();
 //Console.SetCursorPosition(10, 4);
 //Console.WriteLine("+");
 
@@ -45,4 +45,12 @@ while(count < 10000)
     Console.SetCursorPosition(x, y);
     Console.WriteLine("*");
     count++;
+}*/
+
+int i = 0;
+
+while (i < 10)
+{
+    i += 2;
+    Console.Write(i);
 }
